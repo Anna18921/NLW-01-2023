@@ -1,15 +1,13 @@
-import './styles/global.css'
-import { Habit } from "./components/Habit"
+import "./styles/global.css";
 
-function App() {
- 
+const App = () => {
   return (
-    <div>
-      <Habit completed={30} />
-      <Habit completed={30} />
-      <Habit completed={30} />
+    <div className="w-screen h-screen flex justify-center items-center">
+      <div className="w-full max-w-5xl px-6 flex flex-col gap-16">
+    
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export { App };
